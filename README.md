@@ -16,7 +16,7 @@ Program ini mengimplementasikan deret A000124 (Lazy Caterer Sequence) dengan rum
 Program menerima input berupa jumlah elemen deret yang ingin dihasilkan, kemudian menampilkan deret tersebut dengan format yang dipisahkan tanda hubung (misalnya: 1-2-4-7-11).
 
 ## Soal 2: Dense Ranking
-![Screenshot output soal 2](https://github.com/user-attachments/assets/890b2b69-18b5-4493-9fab-15f711dd343b)
+![Screenshot output soal 2](https://github.com/user-attachments/assets/81e91f96-37a2-4f7b-b986-2779031dc3a1)
 
 #### Time Complexity: O(n log n)
 - Dimana n adalah jumlah skor dalam leaderboard
@@ -34,7 +34,7 @@ Program ini mengimplementasikan sistem Dense Ranking dimana:
 Program menerima input berupa daftar skor leaderboard dan daftar skor GITS, kemudian menghitung peringkat untuk setiap skor GITS berdasarkan sistem Dense Ranking.
 
 ## Soal 3: Balanced Brackets (Tanda Kurung Seimbang)
-![Screenshot output soal 3](https://github.com/user-attachments/assets/373a3423-31fa-46f2-ba06-ea87613ee7df)
+![Screenshot output soal 3](https://github.com/user-attachments/assets/f6a9f3e8-9bd2-4b56-846d-0ef8b849f593)
 
 #### Time Complexity: O(n)
 - Dimana n adalah panjang string input
@@ -60,3 +60,12 @@ Solusi ini menggunakan struktur data `Stack` untuk melacak tanda kurung pembuka 
 5. Jika stack tidak kosong, beberapa tanda kurung pembuka tidak ditutup (kembalikan "NO")
 
 Pendekatan ini optimal untuk masalah ini dengan kompleksitas terendah yang mungkin, karena kita perlu memeriksa setiap karakter setidaknya satu kali untuk menentukan apakah tanda kurung seimbang.
+
+### Untuk run program
+```bash
+cd soal1 # atau soal2, soal3
+go run main.go
+```
+
+### Kandidat
+Muhammad Ariq Aziz
