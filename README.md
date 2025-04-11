@@ -1,4 +1,5 @@
 ## Soal 1: A000124 Sequence Generator (Lazy Caterer Sequence)
+![Screenshot output soal 1](https://github.com/user-attachments/assets/f3ccda60-de51-4a0f-b132-a2bdde3ddbe4)
 
 #### Time Complexity: O(n)
 - Dimana n adalah jumlah elemen dalam deret yang akan dihasilkan
@@ -15,6 +16,7 @@ Program ini mengimplementasikan deret A000124 (Lazy Caterer Sequence) dengan rum
 Program menerima input berupa jumlah elemen deret yang ingin dihasilkan, kemudian menampilkan deret tersebut dengan format yang dipisahkan tanda hubung (misalnya: 1-2-4-7-11).
 
 ## Soal 2: Dense Ranking
+![Screenshot output soal 2](https://github.com/user-attachments/assets/890b2b69-18b5-4493-9fab-15f711dd343b)
 
 #### Time Complexity: O(n log n)
 - Dimana n adalah jumlah skor dalam leaderboard
@@ -32,6 +34,7 @@ Program ini mengimplementasikan sistem Dense Ranking dimana:
 Program menerima input berupa daftar skor leaderboard dan daftar skor GITS, kemudian menghitung peringkat untuk setiap skor GITS berdasarkan sistem Dense Ranking.
 
 ## Soal 3: Balanced Brackets (Tanda Kurung Seimbang)
+![Screenshot output soal 3](https://github.com/user-attachments/assets/373a3423-31fa-46f2-ba06-ea87613ee7df)
 
 #### Time Complexity: O(n)
 - Dimana n adalah panjang string input
